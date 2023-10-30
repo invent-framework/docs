@@ -1,0 +1,49 @@
+site_name: Invent
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
+theme:
+  name: material
+  logo: assets/img/logo_white.svg
+  features:
+    - navigation.indexes
+    - content.code.copy
+    - content.code.select
+  palette:
+    scheme: invent
+
+nav:
+  - Home: index.md
+  - Getting started: start.md
+  - Teaching &amp; learning: teach.md
+  - Core concepts:
+    - core/index.md
+    - Functions: core/functions.md
+    - PubSub: core/pubsub.md
+    - Media: core/media.md
+    - Widgets: core/widgets.md
+    - Cards: core/cards.md
+    - Transitions: core/transitions.md
+    - DataStore: core/datastore.md
+    - Tasks: core/tasks.md
+    - Application: core/application.md
+  - Tools &amp; processes:
+    - tools/index.md
+  - API documentation:
+    - api/index.md
+  - Contribute: contribute.md
+  - Being together: being_together.md
+  - License: license.md
+
+
+
+extra_css:
+  - stylesheets/extra.css

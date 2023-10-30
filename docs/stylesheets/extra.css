@@ -1,0 +1,10 @@
+[data-md-color-scheme="invent"] {
+  --md-primary-fg-color:        #351b3e;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+}
+
+.indent {
+  margin-left: 24px;
+  display: block;
+}
