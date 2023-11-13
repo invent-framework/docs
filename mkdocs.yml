@@ -1,6 +1,8 @@
 site_name: Invent
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -8,7 +10,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-
+  - admonition
 
 theme:
   name: material
@@ -17,13 +19,16 @@ theme:
     - navigation.indexes
     - content.code.copy
     - content.code.select
+    - content.code.annotate
   palette:
     scheme: invent
+  custom_dir: custom_theme/
 
 nav:
   - Home: index.md
   - Getting started: start.md
   - Teaching &amp; learning: teach.md
+  - Design: design.md
   - Core concepts:
     - core/index.md
     - Functions: core/functions.md
