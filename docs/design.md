@@ -55,20 +55,23 @@ beginners_.
 
 To help orientate folks contributing to _Invent_, we've created a small group
 of personas to illustrate the diversity of "beginner" coders we hope to help
-with our project.
+with our project. These personas help us empathise with folks creating things
+with _Invent_. They all have names, backgrounds, and certain needs, but they
+also deliberately embody an archetype (learner, educator, enthusiast etc...).
 
-Each persona has four sections:
+In addition to a name, cultural context and associated archetype, each persona
+has four sections:
 
 1. an introduction that explains who they are,
-2. a description of how they're using the _Invent_ framework,
-3. any mitigating circumstances about their use of _Invent_, and,
+2. a description of how they're creating with the _Invent_ framework,
+3. any mitigating circumstances about their engagement with _Invent_, and,
 4. a list of _Invent_related features/capabilities they need.
 
 The persona images were made via a stable diffusion based tool for generating
 faces. _These people do not actually exist_!
 
 
-### Alejando 🇲🇽
+### Alejando 🇲🇽(Learner)
 ![](/assets/img/persona_alejandro.png)
 
 Alejandro is 12 years old, lives in Mexico and is learning how to code in his
@@ -93,7 +96,7 @@ Alejando needs:
   - A simple development environment that supports learning.
 * Support for light, dark, high-contrast and custom themes in the UI layer.
 
-### Ash 🇬🇧
+### Ash 🇬🇧(Engineer)
 ![](/assets/img/persona_ash.png)
 
 Ash, 29, works as a back-end Python engineer at a hedge fund in the City of
@@ -128,7 +131,7 @@ What Ash needs:
 * A simple and intuitive (yet powerful) means of making network calls via both
   HTTP and web-socket protocols.
 
-### Mandisa 🇿🇦
+### Mandisa 🇿🇦(Educator)
 ![](/assets/img/persona_mandisa.png)
 
 Mandisa, 35, is a high school teacher in a girl's school in Claremont, Cape
@@ -160,7 +163,7 @@ What Mandisa needs:
 * A classroom friendly configuration of pyscript.com (where teacher has admin
   control over student's workspaces / applications).
 
-### Parminder 🇮🇳
+### Parminder 🇮🇳(Informatician)
 ![](/assets/img/persona_parminder.png)
 
 Parminder, 44, is a research scientist attached to the United Nations. Her
@@ -180,7 +183,7 @@ What Parminer needs:
 * Offline storage.
 * Robust error handling for network based tasks.
 
-### Janet 🇨🇦
+### Janet 🇨🇦(Administrator)
 ![](/assets/img/persona_janet.png)
 
 Janet, 52, is COO at an established and flourishing aeronautical engineering
@@ -211,7 +214,7 @@ What Janet needs:
   HTTP and web-socket protocols.
 * Examples of pages to display common data patterns.
 
-### Hasan 🇹🇷
+### Hasan 🇹🇷(Hobbyist)
 ![](/assets/img/persona_hasan.png)
 
 Hasan, 67, is an amateur tech enthusiast and restaurant owner from Selçuk,
